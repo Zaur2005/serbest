@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container .navbar{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(198, 205, 214, 0.4);
+    border: 2px solid black;
+    
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: brown;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 80px;
+    
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+}
+
+.navbar ul li a:hover{
+background-color: beige;
+border-radius: 5px;
+}
+.container .center{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(-5%,-5%);
+    font-family: sans-serif;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    
+}
+.center h5{
+    color: black;
+   
+    margin-top: 20px;
+}
+.center button{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+    font-size: 20px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    background-color: orange; 
+    
+}
+.center button:hover{
+    border-radius: 5px;
+    background-color: beige;
+    
+}
+
+.container2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 2px solid black;
+    padding: 15px;
+}
+.center2 h1{
+    color: orangered;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.center2 h5{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+
+.container2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: 2px solid black;
+   
+}
+.container2 .center3 h3{
+margin-top: 10px;
+margin-left: 22%;
+}
+.container2 .center3 h5{
+    margin-top: 3px;
+    margin-left: 18%;
+}
+.container2 .container4 img{
+    top: 0%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 150px;
+
+}
+.container2 .center4{
+    margin-left: 45%;
+    position: absolute;
+    top: 80%;
+}
+
+.container2 .container5 img{
+    right: 200px;
+    position: absolute;
+    top: 10px;
+}
+.container2 .center5{
+    margin-bottom: 200px;
+    position: absolute;
+    right: 130px;
+    top: 80%;
+}
+.container2 .center4 h3{
+    margin-top: 5px;
+    margin-left: 25%;
+    
+    }
+    .container2 .center5 h3{
+        margin-top: 5px;
+        margin-left: 25%;
+        
+            
+        }
+        
